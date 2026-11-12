@@ -1,4 +1,4 @@
-<img width="1920" height="1200" alt="0d87a183-8066-4c76-9f98-0eaef41985a7" src="https://github.com/user-attachments/assets/29752d74-6a26-465f-a8a9-1de4bd60d168" /># Delivery Management System — Final Project
+# Delivery Management System — Final Project
 
 **Course:** Introduction to Functional Programming  
 **Group:** IT-2513  
