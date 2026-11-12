@@ -82,6 +82,10 @@ ifp_final/
 └── .gitignore
 ```
 
+<img width="335" height="902" alt="image" src="https://github.com/user-attachments/assets/194c5a09-8af7-4bda-8b8a-e8de35622b85" />
+
+
+
 ## 5. Functional Programming Concepts
 
 The project demonstrates:
@@ -200,3 +204,6 @@ AI-assisted tools were used during project preparation and documentation. All ge
 ## 14. Repository
 
 GitHub: https://github.com/Aikorkem07/ifp_final
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a51b86d5-a2d3-499b-9976-6a30f129acb5" />
+<img width="797" height="138" alt="image" src="https://github.com/user-attachments/assets/c8279913-784d-42ee-93b2-db6f581a0c20" />
+
