@@ -1,0 +1,6 @@
+using System.Collections.Immutable;using System.Text.Json;
+namespace DeliveryApp;
+public static class InputParser{
+ public static Result<ImmutableArray<ValidatedDeliveryRequest>,DomainError> Parse(string json){using var doc=JsonDocument.Parse(json);if(doc.RootElement.ValueKind!=JsonValueKind.Array)return new Result<ImmutableArray<ValidatedDeliveryRequest>,DomainError>.Err(new("INVALID_ROOT","JSON root must be an array."));
+ var b=ImmutableArray.CreateBuilder<ValidatedDeliveryRequest>();int i=0;foreach(var item in doc.RootElement.EnumerateArray()){i++;if(item.ValueKind!=JsonValueKind.Object||!item.TryGetProperty("id",out var id)||id.ValueKind!=JsonValueKind.String||!item.TryGetProperty("distanceKm",out var d)||d.ValueKind!=JsonValueKind.Number||!d.TryGetDecimal(out var km))return new Result<ImmutableArray<ValidatedDeliveryRequest>,DomainError>.Err(new("INVALID_RECORD",$"Record {i} must contain string id and numeric distanceKm."));
+ var result=ValidatedDeliveryRequest.Create(id.GetString(),km);if(result is Result<ValidatedDeliveryRequest,DomainError>.Err e)return new Result<ImmutableArray<ValidatedDeliveryRequest>,DomainError>.Err(e.Error);if(result is Result<ValidatedDeliveryRequest,DomainError>.Ok ok)b.Add(ok.Value);}return new Result<ImmutableArray<ValidatedDeliveryRequest>,DomainError>.Ok(b.ToImmutable());}}
