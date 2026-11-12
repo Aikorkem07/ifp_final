@@ -1,6 +1,5 @@
 using System.Collections.Immutable;
 namespace DeliveryApp;
-// Final-project extension: six meaningful delivery workflows sharing one immutable state.
 public enum DeliveryStatus { Draft, Confirmed, Dispatched, Delivered, Cancelled }
 public sealed record DeliveryOrder(string Id, decimal DistanceKm, decimal Price, DeliveryStatus Status);
 public sealed record DeliveryLedger(ImmutableArray<DeliveryOrder> Orders)
