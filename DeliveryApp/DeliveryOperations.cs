@@ -11,7 +11,7 @@ public static class DeliveryOperations
     public static Result<DeliveryLedger,DomainError> Register(DeliveryLedger ledger,string? id,decimal km)
     {
         var valid=ValidatedDeliveryRequest.Create(id,km);
-        return valid.Bind(request =>
+        return valid.Bind<DeliveryLedger>(request =>
         {
             if (request.DistanceKm>DeliveryPipeline.MaximumDistance)
                 return new Result<DeliveryLedger,DomainError>.Err(new("OUT_OF_RANGE","Delivery is outside the 20 km service area."));
