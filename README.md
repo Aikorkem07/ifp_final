@@ -1,4 +1,4 @@
-# Delivery Management System — Final Project
+<img width="1920" height="1200" alt="0d87a183-8066-4c76-9f98-0eaef41985a7" src="https://github.com/user-attachments/assets/29752d74-6a26-465f-a8a9-1de4bd60d168" /># Delivery Management System — Final Project
 
 **Course:** Introduction to Functional Programming  
 **Group:** IT-2513  
@@ -148,6 +148,13 @@ For Linux, run:
 ```bash
 bash scripts/build-native-linux.sh
 ```
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a51b86d5-a2d3-499b-9976-6a30f129acb5" />
+
+
+<img width="797" height="138" alt="image" src="https://github.com/user-attachments/assets/c8279913-784d-42ee-93b2-db6f581a0c20" />
+
+
+
 
 ## 8. Automated Testing
 
@@ -201,9 +208,16 @@ Final compilation, execution, and test results must be verified in a local .NET 
 
 AI-assisted tools were used during project preparation and documentation. All generated or assisted material must be reviewed, tested, and understood by the team. The final contribution reports should accurately describe individual work and follow the instructor's AI-use requirements.
 
-## 14. Repository
+## 14 Submitted Version
 
-GitHub: https://github.com/Aikorkem07/ifp_final
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a51b86d5-a2d3-499b-9976-6a30f129acb5" />
-<img width="797" height="138" alt="image" src="https://github.com/user-attachments/assets/c8279913-784d-42ee-93b2-db6f581a0c20" />
+Repository: https://github.com/Aikorkem07/ifp_final
+Branch: main
+Final commit: 773f8e5
+<img width="1920" height="1200" alt="f3df5c59-4c01-4a35-829e-e7bd14c1f28f" src="https://github.com/user-attachments/assets/dbb980f6-b3f6-496a-9af0-79cab8eeaff5" />
+
+<img width="1920" height="1200" alt="0d87a183-8066-4c76-9f98-0eaef41985a7" src="https://github.com/user-attachments/assets/064fb0bd-3d46-4d47-886e-77bad2c0921e" />
+
+<img width="1920" height="1200" alt="a980b045-8200-4bc3-89af-f01804024589" src="https://github.com/user-attachments/assets/2a9d6bcb-92f5-4bc6-8e96-7a5ab4fd6812" />
+
+
 
